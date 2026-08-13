@@ -1,5 +1,5 @@
 FROM redhat/ubi9:latest
-MAINTAINER demo@training.com
+MAINTAINER mohanrajkumar057@gmail.com
 ENV tomcat_test 123
 RUN yum update -y
 RUN mkdir -p /opt/tomcat/
