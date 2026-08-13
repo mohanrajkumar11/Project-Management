@@ -76,14 +76,14 @@ pipeline{
          stage ('Docker Build') {
                  steps {
                     script {
-                      sh "docker build -t goudsagar/webapp-app-tomcat:latest -f Project/Docker-Kubernetes/Dockerfile ."
+                      sh "docker build -t mohanrajkumar057@gmail.com/webapp-app-tomcat:latest -f Project/Docker-Kubernetes/Dockerfile ."
                      }
                     } 
                 }
                 stage ('Docker Push') {
                  steps{
                         sh ''' 
-			  docker push goudsagar/webapp-app-tomcat:latest
+			  docker push mohanrajkumar057@gmail.com/webapp-app-tomcat:latest
 	                '''
                      }      
                }
