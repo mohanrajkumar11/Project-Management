@@ -20,7 +20,7 @@ metadata:
     # alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:480278898183:certificate/6fde47fd-eac1-4e49-8bc0-dcf0d8a855ae
     # alb.ingress.kubernetes.io/ssl-redirect: '443'
 spec:
-  ingressClassName: my-aws-ingress-class 
+  ingressClassName: nginx 
   defaultBackend:
     service:
       name: webapp-application-service-dev
